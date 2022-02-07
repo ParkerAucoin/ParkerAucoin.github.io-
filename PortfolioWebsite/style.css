@@ -53,7 +53,7 @@ a {
   padding-top: 20px;
   text-transform: uppercase;
   font-weight: 600;
-
+  z-index: 1;
 }
 
 .sticky {
@@ -81,7 +81,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   cursor: default;
-  z-index: 1;
+  z-index: -1;
 }
 
 .title {
